@@ -1,0 +1,50 @@
+/* Configuração global da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #1f1b5c;
+    margin-bottom: 24px;
+}
+
+/* Card do Produto (conforme requisitos da Seção 13) */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(177, 43, 43, 0.1); /* Sombra */
+    border: 1px solid #e0e0e0;               /* Borda */
+    text-align: left;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #212266;
+    font-size: 1.4rem;
+}
+
+.card p {
+    color: #238b15;
+    margin: 12px 0;
+}
+
+/* Destaque para o preço */
+.card .preco {
+    font-size: 1.25rem;
+    color: #2e7d32; /* Cor verde de destaque */
+    font-weight: bold;
+}
